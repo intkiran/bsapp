@@ -21,8 +21,7 @@ class UserContainer extends Component {
         {this.props.loading && (
           <p className="text-center alert alert-info">Loading ...</p>
         )}
-        kiran <UserForm user={this.props.user} onSave={this.save} />
-        babu -
+        <UserForm user={this.props.user} onSave={this.save} />
       </div>
     );
   }

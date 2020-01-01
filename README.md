@@ -19,7 +19,7 @@
 - Created two micro services -  User API and Task API Services, api gateway to proxy request, and UI app using reactJs
 - Implemented State management in UI app using redux library.
 - Integrated lernaJS app to manage app applications
-- Easily extendeable and scalable approach
+- Easily extensible and scalable approach
 
 # Architecture Diagram
 
@@ -32,16 +32,18 @@
 - Install lerna globally on your computer by running `npm install -g lerna`
 - Install all the dependencies in the project by running `npm run bootstrap` from the project root directory in your terminal.
 - copy and rename each .env.sample to .env and modify the values accordingly
+- Start the user-api services by running `cd user-api && npm run dev` from the root directory.User-API microservices server listens at 9000 
+- Start the task-api services by running `cd task-api && npm run dev` from the root directory.User-API microservices server listens at 9001 
 - Start the apigateway by running `cd apigateway && npm run start` from the root directory.Apigateway server listens at 8080
-- Start the user-api services by running `cd user-api && npm run start` from the root directory.User-API microservices server listens at 9000 
-- Start the task-api services by running `cd task-api && npm run start` from the root directory.User-API microservices server listens at 9001 
+
 - Start the UI APP by running `cd ui-app && npm run start` from the root directory.
 - Visit `http://localhost:3000` to access the ui-app.
 
 
 
 ## Zeit
-
+> zeit Now cli installed on your computer before following the steps below
+> Install now cli globally using 'npm i -g now' locally
 
 To deploy the each app with Zeit;
 - Create an account or login to your account on Zeit
