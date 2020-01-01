@@ -15,6 +15,7 @@ const TaskList = ({ tasks, onDelete }) => {
               <th>ID</th>
               <th>Name</th>
               <th>Action</th>
+              <th>User Id</th>
             </tr>
           </thead>
           <tbody>
