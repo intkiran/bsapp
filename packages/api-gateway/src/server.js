@@ -30,5 +30,6 @@ app.use(cors);
 app.use((req, res) => {
   res.status(404).send({ message: "Resource not found....!" });
 });
+app.listen(process.env.APP_PORT || 8080);
 
 module.exports = app;
