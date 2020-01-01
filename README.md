@@ -3,10 +3,6 @@
 
 
 
-# Prerequisite
-
-- Install lerna globally using npm install --global lerna
-
 # Technologies
 
 - ReactJS
@@ -30,8 +26,8 @@
 ![](docs/micrservices.png)
 
 # setup
->  `nodejs` and `mongodb` installed on your computer before following the steps below
-
+> `nodejs` and `mongodb` installed on your computer before following the steps below
+> Install lerna globally using npm install --global lerna
 - Run `git clone https://github.com/intkiran/bsapp.git` to clone the repository and `cd bsapp`.
 - Install lerna globally on your computer by running `npm install -g lerna`
 - Install all the dependencies in the project by running `npm run bootstrap` from the project root directory in your terminal.
