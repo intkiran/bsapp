@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "name": "task-api",
+  "builds": [
+    {
+      "src": "src/server.js",
+      "use": "@now/node"
+    }
+  ],
+  "env": {
+    "MONGO_URI": "@my-mongodb-uri"
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "src/server.js"
+    }
+  ]
+}
