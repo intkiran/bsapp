@@ -51,6 +51,9 @@ To deploy the each app with Zeit;
 - Connect Github with Zeit and choose the repository you want to deploy from.
 - Once the application has been successfully deployed, visit the auto-generated url to access the client.
 
+# Live Server
+
+Visit `https://ui-api.ikiranbabu.now.sh/` to access the ui-app.
 
 # Author
 Kiran Babu
